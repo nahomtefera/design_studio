@@ -32,7 +32,7 @@ class ServicesPanel extends Component {
                 </button>
                 <br/><br/>
                 <div className="bar"></div>
-                <br/><br/><br/>
+                <br/>
             </div>
         )
     }

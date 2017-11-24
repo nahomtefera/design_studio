@@ -18,7 +18,7 @@ class Headline extends Component {
                         </p>     
                     </div>
                     <div className="headline-img-container">
-                        <img className="headline-img" src={headline_image} alt="main Image"/>
+                        <img className="headline-img" src={headline_image} alt="hand holding a phone"/>
                     </div>
                     <div className="headline-services-container">
                         <br/>
@@ -28,9 +28,9 @@ class Headline extends Component {
                             for the best price.
                             <br/>
                             <br/>
-                            <i class="fa fa-check-circle-o" aria-hidden="true"></i> Excelent Customer service
+                            <i className="fa fa-check-circle-o" aria-hidden="true"></i> Excelent Customer service
                             <br/>
-                            <i class="fa fa-check-circle-o" aria-hidden="true"></i> Outstanding results
+                            <i className="fa fa-check-circle-o" aria-hidden="true"></i> Outstanding results
                         </p>                        
                     </div>
                     <div className="headline-call-action-container">
