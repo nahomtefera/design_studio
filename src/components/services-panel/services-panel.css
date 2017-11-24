@@ -1,0 +1,136 @@
+.services-container {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-item {
+    width: 195px;
+    height: 195px; 
+    text-align: center;
+    line-height: 195px;
+    color: #979797;
+    font-weight: normal;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: all .25s ease-in-out;
+}
+
+.services-item:hover {
+    border:none!important;
+    background: white;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+    -webkit-box-shadow: 0px 8px 18px -1px rgba(232,245,255,1);
+    -moz-box-shadow: 0px 8px 18px -1px rgba(232,245,255,1);
+    box-shadow: 0px 8px 18px -1px rgba(232,245,255,1);        
+}
+
+.item-duo .services-item:first-child {
+    border-bottom: 2px solid #DFDFDF ;
+}
+
+.item-duo:last-child {
+    border-left: 2px solid #DFDFDF ;
+}
+
+.item-main {
+    width: 390px;
+    height: 390px;
+    line-height: 390px;
+    border-left: 2px solid #DFDFDF;
+    border-right: 2px solid #DFDFDF;
+}
+
+.services-btn-more {
+    padding: 15px;
+    background: white;
+    border: 2px solid #DFDFDF;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bar {
+    width: 85%;
+    margin: 0 auto;
+    height: 10px;
+    border-bottom: 2px solid #DFDFDF;
+}
+
+@media (max-width: 390px) {
+    .services-item {
+        width: 150px;
+        height: 150px; 
+        line-height: 150px;
+    }
+
+    .item-main {
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+    }
+}    
+
+@media (max-width: 983px) {
+
+    .item-duo {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: 100%;   
+    }
+
+    .item-main {
+        flex-grow: 1;    
+    }
+    
+    .services-item {
+        flex-grow: 1;
+    }
+
+    .item-duo .services-item:first-child {
+        border:none;
+        border-right: 2px solid #DFDFDF ;
+    }
+    
+    .item-main {
+        border-top: 2px solid #DFDFDF ;
+        border-bottom: 2px solid #DFDFDF ;
+    }
+
+    .item-duo:last-child {
+        border:none;        
+        border-top: 2px solid #DFDFDF ;
+    }
+}
+/* 
+.crimson {
+    background-color:crimson ;
+}
+.cadetblue {
+    background-color: cadetblue;
+}
+.grey {
+    background-color: grey;
+}
+.yellow {
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+}
+.red {
+    background-color: red;
+} */

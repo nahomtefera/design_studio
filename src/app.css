@@ -10,3 +10,6 @@ html {
     font-weight: 400;
 }
 
+button:focus {outline:0;}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
