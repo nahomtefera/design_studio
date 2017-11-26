@@ -4,6 +4,7 @@ import Header from './components/header/header';
 import Headline from './components/headline/headline';
 import ServicesPanel from './components/services-panel/services-panel';
 import Portfolio from './components/portfolio/portfolio';
+import GetSupport from './components/getsupport/getsupport';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
          <Headline className="app-headline"/>
          <ServicesPanel />
          <Portfolio />
+         <GetSupport />
       </div>
     );
   }

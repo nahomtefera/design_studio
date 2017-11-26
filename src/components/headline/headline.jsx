@@ -43,6 +43,7 @@ class Headline extends Component {
                             <br/>
                                 How it works
                             </div>
+                            <br/><br/>
                         </div>
                     </div>
                 </div>

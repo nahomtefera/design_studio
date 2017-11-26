@@ -1,0 +1,36 @@
+.get-support-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.get-support-img-container {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.get-support-img {
+    max-width: 250px;
+}
+
+.get-support-info-container {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;    
+}
+
+.get-support-info-header {
+    font-size: 2.3em;
+    color: cadetblue;
+}
+
+.get-support-info-text {
+    padding-left: 20px;
+    color: #787878;
+}
+
+@media (max-width: 600px) {
+    .get-support-img-container, .get-support-info-container {
+        width: 100%;
+    }
+}
