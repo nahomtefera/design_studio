@@ -1,0 +1,11 @@
+.get-started-container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top
+}
+
+.get-started-img {
+    max-width: 500px;
+    vertical-align: middle;
+}
