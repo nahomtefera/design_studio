@@ -24,7 +24,7 @@ class GetSupport extends Component {
                     
                     </p>
                 </div>
-                <br/>
+                <br/><br/><br/>
                 <div className="bar"></div>
                 <br/>
             </div>

@@ -6,6 +6,7 @@ import ServicesPanel from './components/services-panel/services-panel';
 import Portfolio from './components/portfolio/portfolio';
 import GetSupport from './components/getsupport/getsupport';
 import GetStarted from './components/getstarted/getstarted';
+import Footer from './components/footer/footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Portfolio />
         <GetSupport />
         <GetStarted />
+        <Footer />
       </div>
     );
   }

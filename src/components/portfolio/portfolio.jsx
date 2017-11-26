@@ -10,69 +10,69 @@ class Portfolio extends Component {
         this.state = {
             images: [
                 {
-                    src: require('../../images/portfolio/img1.png'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 1
                 },
                 {
-                    src: require('../../images/portfolio/img1.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 2
                 },
                 {
-                    src: require('../../images/portfolio/img2.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 3
                 },
                 {
-                    src: require('../../images/portfolio/img3.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 4
                 },
                 {
-                    src: require('../../images/portfolio/img4.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 5
                 },
                 {
-                    src: require('../../images/portfolio/img6.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 7
                 },
                 {
-                    src: require('../../images/portfolio/img7.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 8
                 },
                 {
-                    src: require('../../images/portfolio/img8.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 9
                 }
             ],
             second_set:[
                 {
-                    src: require('../../images/portfolio/img9.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 10
                 },
                 {
-                    src: require('../../images/portfolio/img10.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 11
                 },
                 {
-                    src: require('../../images/portfolio/img11.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 12
                 },
                 {
-                    src: require('../../images/portfolio/img12.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 13
                 },
                 {
-                    src: require('../../images/portfolio/img13.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 14
                 },
                 {
-                    src: require('../../images/portfolio/img14.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 15
                 },
                 {
-                    src: require('../../images/portfolio/img15.jpg'),
+                    src: require('../../images/portfolio/blank_grey.jpg'),
                     key: 16
                 },
                 {
-                    src: require('../../images/portfolio/img16.jpg'),
+                    src: require('../../images/portfolio/blank.jpg'),
                     key: 17
                 }
             ]

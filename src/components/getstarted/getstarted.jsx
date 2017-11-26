@@ -10,7 +10,9 @@ class GetStarted extends Component {
                 <br/>
                 <br/>
                 <div className="get-started-container">
-                    <img src={GetReadyImg} className="get-started-img" alt="start to run"/>
+                    {/* <img src={GetReadyImg} className="get-started-img" alt="start to run"/>  */}
+                    <br/>
+                    <br/>
                     <br/>
                     <button className="headline-call-action-button">Let's start</button>
                 </div>
