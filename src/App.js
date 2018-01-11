@@ -3,6 +3,7 @@ import './app.css';
 import Header from './components/header/header';
 import Headline from './components/headline/headline';
 import ServicesPanel from './components/services-panel/services-panel';
+import RequestDesign from './components/request-design/request-design';
 import Portfolio from './components/portfolio/portfolio';
 import GetSupport from './components/getsupport/getsupport';
 import GetStarted from './components/getstarted/getstarted';
@@ -14,8 +15,8 @@ class App extends Component {
     super(props);
 
     this.state = {
-      start_request: false,
-      request_servie: "",
+      start_request: true,
+      request_service: "",
     }
 
     this.startRequest = this.startRequest.bind(this);
@@ -43,6 +44,12 @@ class App extends Component {
         <Header className="app-header"/>
         <Headline className="app-headline"/>
         <ServicesPanel />
+        <RequestDesign 
+          className={this.state.start_request ? 
+            "show":
+            "hide"
+          }
+        />
         <Portfolio />
         <GetSupport />
         <GetStarted />
