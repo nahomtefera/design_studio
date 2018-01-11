@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './request-design.css';
+import LogoRequest from '../logo-request/logo-request';
 
 class RequestDesign extends Component {
 
@@ -9,8 +10,8 @@ class RequestDesign extends Component {
 
     render() {
         return (
-            <div className={this.props.className}>
-                Something
+            <div className={this.props.className }>
+                <LogoRequest />
             </div>
         )
     }

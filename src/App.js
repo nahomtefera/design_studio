@@ -16,7 +16,7 @@ class App extends Component {
 
     this.state = {
       start_request: true,
-      request_service: "",
+      service_requested: "",
     }
 
     this.startRequest = this.startRequest.bind(this);
@@ -49,6 +49,7 @@ class App extends Component {
             "show":
             "hide"
           }
+          serviceRequested={this.state.service_requested}
         />
         <Portfolio />
         <GetSupport />
