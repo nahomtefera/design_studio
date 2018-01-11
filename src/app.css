@@ -10,6 +10,9 @@ html {
     font-weight: 400;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500');
+
+
 .show{
     display: block;
 }

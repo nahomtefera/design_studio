@@ -10,8 +10,10 @@ class RequestDesign extends Component {
 
     render() {
         return (
-            <div className={this.props.className }>
-                <LogoRequest />
+            <div className={this.props.className + " request-container"}>
+                <div className="request">
+                     <LogoRequest />
+                </div>
             </div>
         )
     }

@@ -8,7 +8,7 @@ class ServicesPanel extends Component {
             <div className="services-container">
                 <div className="items">
                     <div className="item-duo">
-                        <div className="services-item crimson">LOGOS</div>
+                        <div onClick={this.props.start_request} className="services-item crimson">LOGOS</div>
                         <div className="services-item cadetblue">WEBSITES</div>
                     </div>
                     

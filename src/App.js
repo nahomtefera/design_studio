@@ -28,7 +28,8 @@ class App extends Component {
   startRequest(){
     this.setState({
       start_request: true,
-    })
+    });
+    window.scrollTo(0, 0)
   }
   // This function will close the window to pause the process
   // of chosing/requesting a service
@@ -43,7 +44,7 @@ class App extends Component {
       <div className="App">
         <Header className="app-header"/>
         <Headline className="app-headline"/>
-        <ServicesPanel />
+        <ServicesPanel start_request={this.startRequest} />
         <RequestDesign 
           className={this.state.start_request ? 
             "show":
