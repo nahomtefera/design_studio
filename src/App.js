@@ -20,7 +20,7 @@ class App extends Component {
     }
 
     this.startRequest = this.startRequest.bind(this);
-    this.pauseRequest = this.pauseRequest.bind(this);
+    this.closeRequest = this.closeRequest.bind(this);
   }
 
   // This function will open the window to start the process
@@ -33,7 +33,7 @@ class App extends Component {
   }
   // This function will close the window to pause the process
   // of chosing/requesting a service
-  pauseRequest(){
+  closeRequest(){
     this.setState({
       start_request: false
     })
@@ -50,6 +50,7 @@ class App extends Component {
             "show":
             "hide"
           }
+          closeRequest={this.closeRequest}
           serviceRequested={this.state.service_requested}
         />
         <Portfolio />
